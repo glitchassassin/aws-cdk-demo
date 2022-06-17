@@ -1,0 +1,16 @@
+{
+  "name": "aws-cdk-demo-code",
+  "version": "1.0.0",
+  "description": "Lambdas for AWS CDK demo",
+  "main": "handlers.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Jon Winsley",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^18.0.0",
+    "aws-sdk": "^2.1157.0"
+  }
+}
